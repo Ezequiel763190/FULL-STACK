@@ -1,0 +1,96 @@
+p {
+    color: rgb(5, 5, 5);
+}
+
+.teste {
+    color: rgb(255, 0, 0);
+}
+
+a:hover {
+    color: yellow;
+}
+
+.teste2 {
+    color: rgb(76, 3, 247);
+}
+
+h1 {
+    text-align: center;
+}
+
+.links-marcas {
+    font-size: 50px;
+}
+
+table {
+  margin: 0;
+  height: 100vh;            
+  display: flex;
+  justify-content: center;  
+  align-items: center;      
+}
+
+body {
+    background: linear-gradient(135deg, #0f172a, #020617);
+    color: #e5e7eb;
+    min-height: 100vh;
+}
+.primeiro_paragrafo {
+    text-align: center;
+    max-width: 700px;
+    margin: 0 auto;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.cabecalho {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  padding: 20px 40px;
+  background: linear-gradient(135deg, #0f2027, #203a43, #2c5364);
+}
+
+.logo h1 {
+  color: white;
+  font-size: 28px;
+  font-family: Arial, sans-serif;
+}
+
+.menu a {
+  color: white;
+  text-decoration:none;
+  margin-left: 25px;
+  font-size: 18px;
+  font-family: Arial, sans-serif;
+  transition: 0.3s;
+}
+
+.menu a:hover {
+  color: #00ffff;
+}
+
+.texto {
+  font-size: 18px;
+  line-height: 1.6;
+  max-width: 600px;
+}
+
+.foto {
+  width: 600px;
+  height: 600px;
+  border-radius: 50%;   
+  object-fit: cover;
+}
+
+.sobre {
+  display: flex;
+  align-items: center;   
+  gap: 30px;             
+  padding: 40px;
+}
