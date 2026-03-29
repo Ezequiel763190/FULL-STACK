@@ -1,0 +1,190 @@
+body {
+    margin: 0;
+    background-color: #d3d3d3;
+}
+
+.inicio h1{
+    color: green;
+}
+
+.inicio img{
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+}
+
+.inicio1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: #fee4c3;
+    border: 3px solid blue;
+    margin: 0px 15px;
+    padding: 15px;
+    margin-top: 15px
+}
+
+.inicio h1{
+    display: flex;
+    align-items: center;
+}
+
+.inicio2 {
+    display: flex;
+    flex-direction: row;
+    background-color: #87cefa;
+    padding: 15px;
+    margin: 0px 15px;
+    justify-content: center;
+    gap: 110px;
+
+}
+
+.inicio2 a{
+    text-decoration: none;
+    color:#6a283d;
+}
+
+.inicio{
+    display: flex;
+    flex-direction: column;
+}
+
+.intro{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.intro p{
+    color: #361051;
+    max-width: 1500px;
+}
+
+.text1{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.text2{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.text3{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.livros{
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+    justify-content: center;
+    align-items: center;
+}
+
+.livros img{
+    width: 230px;
+    height: 300px;
+    object-fit: cover;
+}
+
+.textolivros{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.textoaprender{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+}
+
+.fotos{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    gap:50px ;
+}
+.tabela{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.contatos{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+}
+
+table {
+    border-collapse: collapse;
+}
+
+th, td {
+    padding: 8px;
+    text-align: center;
+    border: 2px solid red;
+}
+th {
+    color: red;
+}
+
+.yellow{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: yellow;
+    margin: 20px 650px;
+    flex-direction: column;
+    align-items: flex-start;
+}
+.ordemgeral{
+    display: flex;
+    padding-left: 15px;
+
+}
+.ordem2 {
+    display: flex;
+    flex-direction: column;
+    margin-top: 15px;
+    padding-left: 15px;
+}
+
+.ordem2 a{
+    text-decoration: none;
+    color: red;
+}
+
+.final{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: #fee4c3;
+    margin: 15px 15px;
+    padding: 20px;
+}
+
+.final p{
+    line-height: 2.5;
+}
+
+.final img{
+    width: 100px;
+    height: 100px;
+}
+
+

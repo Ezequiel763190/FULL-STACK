@@ -1,0 +1,178 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: radial-gradient(circle, #1c2541, #0a1f44, #000000);
+}
+header {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    margin-top: 10px;
+}
+nav a{
+    margin-right: 10px;
+}
+header a{
+    font-size: 30px;
+}
+
+header h1{
+    color: white;
+}
+nav a{
+    margin-left: 20px;
+    text-decoration: none;
+    color: white;
+}
+
+.sobre{
+    display: flex;
+    align-items: center;
+    padding: 70px;
+    color: white;
+}
+
+.sobre p{
+    font-size: 20px;
+}
+
+
+.sobre img {
+    width: 600px;
+    height: 600px;
+    border-radius: 50%;
+    margin-right: 90px;
+
+    object-fit: cover;
+    object-position: center;
+}
+
+.texto{
+    max-width: 1000px;
+}
+
+.hobbies h2{
+    color: white;
+    text-align: center;
+}
+
+.hobbies{
+    padding: 10px;
+}
+
+.fotos1{
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+    padding: 20px;
+    justify-content: center;
+}
+
+.fotos img{
+    width: 350px;
+    height: 250px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.fotos p{
+    text-align: center;
+    color: white;
+    font-size: 20px;
+}
+
+.fotos2{
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+    padding: 20px;
+    justify-content: center;
+}
+
+.lista1 h2 {
+    margin-top: 20px;
+    color: white;
+    padding-left: 20px;
+}
+
+.lista{
+    display: flex;
+    padding-left: 20px;
+}
+
+.lista ul{
+    color: white;
+    font-size: 20px;
+}
+
+.titulomarcas {
+    display: flex;
+    justify-content: center; 
+    align-items: center;    
+}
+
+.titulomarcas h2{
+    color: white;
+}
+
+.marcas1{
+    display: flex;
+    flex-direction: row;
+    gap: 60px;
+    padding: 20px;
+    justify-content: center;
+}
+
+.marcas img{
+    height: 200px;
+    width: 200px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.marcas {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.marcas a{
+    margin-top: 10px;
+    text-decoration: none;
+    color: white;
+}
+
+a:hover{
+    color:  #0056b3;
+}
+
+.iframes h2{
+    color: white;
+}
+
+.iframes{
+    display: flex;
+    flex-direction: column;
+    padding-left: 20px;
+    margin-top: 20px;
+    align-items: center;
+}
+
+.mapa{
+    margin-top: 20px;
+}
+
+.textomapa{
+    display: flex;
+    justify-content: center;
+}
+
+.textomapa h2{
+    color: white;
+}
+
+.maps{
+    display: flex;
+    justify-content: center;
+    padding: 15px;
+}

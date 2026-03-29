@@ -1,0 +1,192 @@
+body{
+    margin: 0;
+}
+
+
+.inicio{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    padding-left: 20px;
+    gap: 20px;
+}
+
+.assine{
+    background-color: #ed193a;
+    padding: 10px;
+    margin-top: 20px;
+}
+.assine a:hover{
+    color: rgb(66, 78, 78);
+}
+
+.inicio a {
+    text-decoration: none;
+    font-size: 20px;
+    color: #848683;
+}
+
+.assine a {
+    color: white;  
+}
+
+.sequenciainicio {
+    display: flex;
+    gap: 40px;
+    margin-top: 28px;
+}
+
+.separacao{
+    height: 1px;
+    background-color: #848683;
+    margin: 15px 0;
+}
+
+.inicio1{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-left:20px ;
+    padding-right: 20px;
+}
+
+.correio{
+    width: 100px;
+    height: 300px;
+}
+
+.tabelacima{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 40px;
+}
+
+.tabelabaixo{
+    display: flex;
+    justify-content: space-around;
+}
+
+.tabelabaixo a{
+    text-decoration: none;
+    color:black ;
+}
+
+.textofestival h1{
+    color: red;
+    padding-left: 45px;
+    font-size: 40px;
+}
+
+.fotos{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+
+.fotoscarro{
+    display: flex;
+    flex-direction: column;
+    width: 700px;
+    padding-left: 15px;
+}
+
+.fotos img{
+    width: 700px;
+    height: 400px;
+}
+
+.faixa{
+    display: flex;
+    background-color: #ed193a;
+    color: white;
+}
+
+.faixa div{
+    flex: 1;
+    padding: 15px;
+    font-size: 14px;
+}
+
+.mulhersorrindo{
+    display: flex;
+    flex-direction: column;
+}
+
+.mulhersorrindo img{
+    width: 400px;
+    height: 250px;
+}
+
+.mulherentrevista{
+    display: flex;
+    flex-direction: column;
+}
+
+.mulherentrevista img{
+    width: 400px;
+    height: 250px;
+}
+
+.titulo1{
+    color: #ed193a;
+}
+
+.subtitulo1{
+    color: #848683;
+}
+
+.partevideo{
+    background-color: #474646;
+}
+
+.videocorreio iframe{
+    width: 1000px;
+    height: 500px;
+    padding: 10px;
+    padding-left: 500px;
+
+}
+
+.textocorreio{
+    padding-left: 50px;
+    color: white;
+    font-size: 25px;
+}
+
+.fim{
+    background-color:#f2f2f2;
+    display: flex;
+    gap: 80px;
+    padding-top: 40px;
+    margin-top: 50px;
+}
+
+.fim1 {
+    display: flex;
+    flex-direction: column;
+    padding-left: 30px;
+}
+
+.fim1 img{
+    width: 150px;
+    height: 90px;
+}
+
+.fim2{
+    display: flex;
+    flex-direction: column;
+}
+
+.fim3{
+    display: flex;
+    flex-direction: column;
+
+}
+
+.fim4{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding-left: 500px;
+}
