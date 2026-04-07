@@ -1,3 +1,33 @@
 canvas{
     background-color:#9CFCD4;
 }
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: radial-gradient(circle, #1c2541, #0a1f44, #000000);
+    color: white;
+}
+
+.paisagem{
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+nav a {
+    margin-left: 20px;
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+}
+
+nav a:hover {
+    color: #00aaff;
+}
