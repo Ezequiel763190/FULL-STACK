@@ -1,4 +1,4 @@
-let canvas = document.getElementById('canvas');
+let canvas = document.getElementById('blocoCasa');
 let ctx = canvas.getContext('2d');
 
 //sol
@@ -135,6 +135,13 @@ ctx.stroke();
 ctx.closePath();
 
 
+let canvas2 = document.getElementById('blocoGeometria');
+let ctx2 = canvas2.getContext('2d');
 
+ctx2.beginPath();
+ctx2.lineWidth = 4;
+ctx2.strokeStyle = 'black';
+ctx2.strokeRect(0,0,399,399);
+ctx2.closePath();
 
 
