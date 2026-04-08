@@ -144,4 +144,33 @@ ctx2.strokeStyle = 'black';
 ctx2.strokeRect(0,0,399,399);
 ctx2.closePath();
 
+ctx2.beginPath();
+ctx2.lineWidth = 2;
+ctx2.fillStyle = '#1201ff';
+ctx2.fillRect(2,2,60,60);
+ctx2.closePath();
+
+ctx2.beginPath();
+ctx2.lineWidth = 2;
+ctx2.fillStyle = 'red';
+ctx2.fillRect(338,2,60,60);
+ctx2.closePath();
+
+ctx2.beginPath();
+ctx2.strokeStyle = 'green';
+ctx2.moveTo(1,200);
+ctx2.lineTo(398,200);
+ctx2.stroke();
+
+ctx2.beginPath();
+ctx2.lineWidth = 2;
+ctx2.fillStyle = '#00ffff';
+ctx2.fillRect(2,159,40,40);
+ctx2.closePath();
+
+ctx2.beginPath();
+ctx2.lineWidth = 2;
+ctx2.fillStyle = '#00ffff';
+ctx2.fillRect(357,159,40,40);
+ctx2.closePath();
 
