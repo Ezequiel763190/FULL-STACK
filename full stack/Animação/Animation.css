@@ -1,0 +1,35 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: radial-gradient(circle, #1c2541, #0a1f44, #000000);
+    color: white;
+}
+
+#animacao{
+    background-color: white;
+
+}
+
+.animacao1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+nav a {
+    margin-left: 20px;
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+}
+
+nav a:hover {
+    color: #00aaff;
+}
