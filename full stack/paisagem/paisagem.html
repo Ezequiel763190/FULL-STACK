@@ -2,11 +2,12 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Paisagem</title>
-    <link rel="stylesheet" href="paisagem.css">
+    <title>Adivinhação</title>
+    <link rel="stylesheet" href="guess.css">
 </head>
 <body>
+
+    
 <header>
     <h1>Ezequiel Botelho Rocha</h1>
     <nav>
@@ -15,12 +16,16 @@
     </nav>
 </header>
 
-    <div class="casa">
-        <canvas id="blocoCasa" width="400px" height="400px"></canvas>
+
+    <div id="caixa">
+        <h1>Adivinhe o número (0 a 99)</h1>
+
+        <input type="number" id="chute" min="0" max="99">
+        <button onclick="verificar()">Enviar</button>
+
+        <p id="resultado"></p>
     </div>
-    <div class="geometria">
-        <canvas id="blocoGeometria" width="400px" height="400px"></canvas>
-    </div>
-    <script src="paisagem.js" type="text/javascript"></script>
+
+    <script src="arquivo.js"></script>
 </body>
 </html>
